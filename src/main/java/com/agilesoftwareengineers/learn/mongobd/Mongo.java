@@ -303,5 +303,24 @@ public class Mongo {
         );
 
 
+        // QQ769875A
+        db.getCollection("applicants").insertOne(
+                new Document("applicant",
+                        new Document()
+                                .append("forename", "Harry")
+                                .append("surname", "Callahan")
+                                .append("nino", "QQ769875A"))
+                        .append("incomes", null)
+                        .append("links", asList(
+                                new Document()
+                                        .append("rel", "self")
+                                        .append("href", "http://localhost:4567/incomeproving/applicants/QQ769875A"),
+                                new Document()
+                                        .append("rel", "sponsors")
+                                        .append("href", "http://localhost:4567/incomeproving/applicants/QQ769875A/sponsors")
+                        ))
+        );
+
+
     }
 }
