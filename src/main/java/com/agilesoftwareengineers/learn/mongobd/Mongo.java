@@ -1,36 +1,28 @@
 package com.agilesoftwareengineers.learn.mongobd;
 
-import com.mongodb.*;
-import com.mongodb.client.FindIterable;
+import com.mongodb.MongoClient;
+import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
-
 import java.text.ParseException;
 
-import static com.mongodb.client.model.Filters.eq;
 import static java.util.Arrays.asList;
 
-/**
- * Created by andrewmoores on 29/02/2016.
- */
 public class Mongo {
 
     public static void main(String args[]) throws ParseException {
         MongoClient mongoClient = new MongoClient();
         MongoDatabase db = mongoClient.getDatabase("test");
+        MongoCollection<Document> applicants = db.getCollection("applicants");
 
-        db.getCollection("applicants").drop();
-        insertData(db);
+        applicants.drop();
+        insertData(applicants);
 
-        DBCollection coll = mongoClient.getDB("test").getCollection("applicants");
-        DBObject query = new QueryBuilder().start().get();
-
-        int result = coll.find(query).size();
-        System.out.println("Applicants collection now contains::" + result);
+        System.out.println("Applicants collection now contains::" + applicants.count());
     }
 
-    private static void insertData(MongoDatabase db) throws ParseException {
-        db.getCollection("applicants").insertOne(
+    private static void insertData(MongoCollection<Document> applicants) throws ParseException {
+        applicants.insertOne(
                 new Document("applicant",
                         new Document()
                                 .append("forename", "Harry")
@@ -74,7 +66,7 @@ public class Mongo {
         );
 
         //QQ654321A
-        db.getCollection("applicants").insertOne(
+        applicants.insertOne(
                 new Document("applicant",
                         new Document()
                                 .append("forename", "Harry")
@@ -141,7 +133,7 @@ public class Mongo {
                         ))
         );
 
-        db.getCollection("applicants").insertOne(
+        applicants.insertOne(
                 new Document("applicant",
                         new Document()
                                 .append("forename", "Harry")
@@ -200,7 +192,7 @@ public class Mongo {
                         ))
         );
 
-        db.getCollection("applicants").insertOne(
+        applicants.insertOne(
                 new Document("applicant",
                         new Document()
                                 .append("forename", "Harry")
@@ -235,7 +227,7 @@ public class Mongo {
                         ))
         );
 
-        db.getCollection("applicants").insertOne(
+        applicants.insertOne(
                 new Document("applicant",
                         new Document()
                                 .append("forename", "Harry")
@@ -304,7 +296,7 @@ public class Mongo {
 
 
         // QQ769875A
-        db.getCollection("applicants").insertOne(
+        applicants.insertOne(
                 new Document("applicant",
                         new Document()
                                 .append("forename", "Harry")
