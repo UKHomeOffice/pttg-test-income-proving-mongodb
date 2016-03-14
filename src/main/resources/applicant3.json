@@ -1,0 +1,70 @@
+{
+  "applicant" : {
+    "forename" : "Harry",
+    "surname" : "Callahan",
+    "nino" : "QQ023987A"
+  },
+  "incomes" : [
+    {
+      "payDate" : "01/01/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "£1666.00"
+    },
+    {
+      "payDate" : "10/01/2015",
+      "employer" : "Halifax PLC",
+      "income" : "£2000.00"
+    },
+    {
+      "payDate" : "01/02/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "£1666.00"
+    },
+    {
+      "payDate" : "10/02/2015",
+      "employer" : "Halifax PLC",
+      "income" : "£2000.00"
+    },
+    {
+      "payDate" : "01/03/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "£1666.00"
+    },
+    {
+      "payDate" : "10/03/2015",
+      "employer" : "Halifax PLC",
+      "income" : "£2000.00"
+    },
+    {
+      "payDate" : "01/04/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "£1666.00"
+    },
+    {
+      "payDate" : "10/04/2015",
+      "employer" : "Halifax PLC",
+      "income" : "£2000.00"
+    },
+    {
+      "payDate" : "10/05/2015",
+      "employer" : "Halifax PLC",
+      "income" : "£2000.00"
+    },
+    {
+      "payDate" : "10/06/2015",
+      "employer" : "Halifax PLC",
+      "income" : "£2000.00"
+    }
+  ],
+  "total" : "£18664.00",
+  "links" : [
+    {
+      "rel" : "self",
+      "href" : "http://localhost:4567/incomeproving/applicants/QQ023987A"
+    },
+    {
+      "rel" : "sponsors",
+      "href" : "http://localhost:4567/incomeproving/applicants/QQ023987A/sponsors"
+    }
+  ]
+}

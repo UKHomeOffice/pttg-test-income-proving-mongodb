@@ -1,0 +1,50 @@
+{
+  "applicant" : {
+    "forename" : "Harry",
+    "surname" : "Callahan",
+    "nino" : "QQ123456A"
+  },
+  "incomes" : [
+    {
+      "payDate" : "01/01/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "£1666.11"
+    },
+    {
+      "payDate" : "01/02/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "£1666.11"
+    },
+    {
+      "payDate" : "01/03/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "£1666.11"
+    },
+    {
+      "payDate" : "01/04/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "£1666.11"
+    },
+    {
+      "payDate" : "01/05/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "£1666.11"
+    },
+    {
+      "payDate" : "01/06/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "£1666.11"
+    }
+  ],
+  "total" : "£9996.66",
+  "links" : [
+    {
+      "rel" : "self",
+      "href" : "http://localhost:4567/incomeproving/v1/applicants/QQ123456A"
+    },
+    {
+      "rel" : "sponsors",
+      "href" : "http://localhost:4567/incomeproving/v1/applicants/QQ123456A/sponsors"
+    }
+  ]
+}

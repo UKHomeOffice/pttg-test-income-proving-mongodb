@@ -1,0 +1,80 @@
+{
+  "applicant" : {
+    "forename" : "Harry",
+    "surname" : "Callahan",
+    "nino" : "QQ654321A"
+  },
+  "incomes" : [
+    {
+      "payDate" : "01/01/2015",
+      "employer" : "Sheffield Spice",
+      "income" : "£1000.00"
+    },
+    {
+      "payDate" : "01/02/2015",
+      "employer" : "Sheffield Spice",
+      "income" : "£1000.00"
+    },
+    {
+      "payDate" : "01/03/2015",
+      "employer" : "Sheffield Spice",
+      "income" : "£1000.00"
+    },
+    {
+      "payDate" : "01/04/2015",
+      "employer" : "Sheffield Spice",
+      "income" : "£3000.00"
+    },
+    {
+      "payDate" : "01/05/2015",
+      "employer" : "Sheffield Spice",
+      "income" : "£1000.00"
+    },
+    {
+      "payDate" : "01/06/2015",
+      "employer" : "Sheffield Spice",
+      "income" : "£1000.00"
+    },
+    {
+      "payDate" : "01/07/2015",
+      "employer" : "Sheffield Spice",
+      "income" : "£2500.00"
+    },
+    {
+      "payDate" : "01/08/2015",
+      "employer" : "Sheffield Spice",
+      "income" : "£1000.00"
+    },
+    {
+      "payDate" : "01/09/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "£1666.00"
+    },
+    {
+      "payDate" : "01/10/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "£1666.00"
+    },
+    {
+      "payDate" : "01/11/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "£1666.00"
+    },
+    {
+      "payDate" : "01/12/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "£1666.00"
+    }
+  ],
+  "total" : "£18164.00",
+  "links" : [
+    {
+      "rel" : "self",
+      "href" : "http://localhost:4567/incomeproving/applicants/QQ654321A"
+    },
+    {
+      "rel" : "sponsors",
+      "href" : "http://localhost:4567/incomeproving/applicants/QQ654321A/sponsors"
+    }
+  ]
+}
