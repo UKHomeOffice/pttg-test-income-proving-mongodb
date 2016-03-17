@@ -7,6 +7,9 @@
   },
   "applicationDate": "2015-01-23T12:31:28.884Z",
   "category": "A",
-  "threshold": "18600.00",
+  "threshold": {
+      "amount": 18600.00,
+      "isoCurrencyCode": "GBP"
+  },
   "meetsFinancialRequirements": true
 }
