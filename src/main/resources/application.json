@@ -3,10 +3,15 @@
     "title": "Mr",
     "forename": "Brian",
     "surname": "Snail",
-    "nino": "YYY"
+    "nino": "BB654321B"
   },
   "applicationDate": "2015-01-15T17:31:28.884Z",
   "category": "A",
-  "threshold": 18600.00,
-  "meetsFinancialRequirements": true
+  "threshold": {
+    "amount": 18600.00,
+    "isoCurrencyCode": "GBP"
+  },
+  "financialRequirementsCheck": {
+    "met": false
+  }
 }
