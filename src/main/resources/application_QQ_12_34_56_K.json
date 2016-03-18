@@ -11,5 +11,7 @@
     "amount": 18600.00,
     "isoCurrencyCode": "GBP"
   },
-  "meetsFinancialRequirements": true
+  "financialRequirementsCheck" : {
+    "met": true
+  }
 }
