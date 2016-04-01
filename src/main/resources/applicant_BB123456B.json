@@ -1,0 +1,55 @@
+{
+  "applicant" : {
+    "forename" : "Jon",
+    "surname" : "Taylor",
+    "nino" : "BB123456B"
+  },
+  "incomes" : [
+    {
+      "payDate" : "28/01/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "2240.00"
+    },
+    {
+      "payDate" : "28/12/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "2240.00"
+    },
+    {
+      "payDate" : "28/11/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "2240.00"
+    },
+    {
+      "payDate" : "28/10/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "2240.00"
+    },
+    {
+      "payDate" : "28/09/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "2240.00"
+    },
+    {
+      "payDate" : "28/08/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "2240.00"
+    },
+    {
+      "payDate" : "28/07/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "2240.00"
+    }
+  ],
+  "total" : "15680",
+  "links" : [
+    {
+      "rel" : "self",
+      "href" : "http://localhost:4567/incomeproving/v1/applicants/AA123456A"
+    },
+    {
+      "rel" : "sponsors",
+      "href" : "http://localhost:4567/incomeproving/v1/applicants/AA123456A/sponsors"
+    }
+  ]
+}
