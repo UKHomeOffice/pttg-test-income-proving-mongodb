@@ -1,0 +1,17 @@
+{
+  "applicant": {
+    "title": "Mr",
+    "forename": "Francois",
+    "surname": "Leblanc",
+    "nino": "FL123456B"
+  },
+  "applicationReceivedDate": "2015-03-28T12:31:28.884Z",
+  "category": "B",
+  "threshold": {
+    "amount": 17600.00,
+    "isoCurrencyCode": "GBP"
+  },
+  "financialRequirementsCheck": {
+    "met": false
+  }
+}

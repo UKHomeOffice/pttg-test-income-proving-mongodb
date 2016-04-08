@@ -1,0 +1,17 @@
+{
+  "applicant": {
+    "title": "Mr",
+    "forename": "James",
+    "surname": "Woods",
+    "nino": "JL123456B"
+  },
+  "applicationReceivedDate": "2015-01-13T12:31:28.884Z",
+  "category": "B",
+  "threshold": {
+    "amount": 17600.00,
+    "isoCurrencyCode": "GBP"
+  },
+  "financialRequirementsCheck": {
+    "met": false
+  }
+}
