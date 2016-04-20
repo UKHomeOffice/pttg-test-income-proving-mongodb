@@ -8,45 +8,45 @@
     {
       "payDate" : "15/01/2015",
       "employer" : "Flying Pizza Ltd",
-      "income" : "1600.00"
+      "income" : "£1600.00"
     },
     {
       "payDate" : "17/12/2014",
       "employer" : "Flying Pizza Ltd",
-      "income" : "1600.00"
+      "income" : "£1600.00"
     },
     {
       "payDate" : "15/11/2014",
       "employer" : "Flying Pizza Ltd",
-      "income" : "1600.00"
+      "income" : "£1600.00"
     },
     {
       "payDate" : "30/10/2014",
       "employer" : "Flying Pizza Ltd",
-      "income" : "1600.00"
+      "income" : "£1600.00"
     },
     {
       "payDate" : "15/09/2014",
       "employer" : "Flying Pizza Ltd",
-      "income" : "1600.00"
+      "income" : "£1600.00"
     },
     {
       "payDate" : "15/08/2014",
       "employer" : "Flying Pizza Ltd",
-      "income" : "1600.00"
+      "income" : "£1600.00"
     },
     {
       "payDate" : "15/07/2014",
       "employer" : "Flying Pizza Ltd",
-      "income" : "1600.00"
+      "income" : "£1600.00"
     },
     {
       "payDate" : "15/06/2014",
       "employer" : "Flying Pizza Ltd",
-      "income" : "1600.00"
+      "income" : "£1600.00"
     }
   ],
-  "total" : "11000",
+  "total" : "£11000",
   "links" : [
     {
       "rel" : "self",
