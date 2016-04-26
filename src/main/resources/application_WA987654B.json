@@ -1,0 +1,17 @@
+{
+  "applicant": {
+    "title": "Mr",
+    "forename": "Mark",
+    "surname": "Jones",
+    "nino": "WA987654"
+  },
+  "applicationReceivedDate": "2015-02-30T12:31:28.884Z",
+  "category": "A",
+  "threshold": {
+      "amount": 18600.00,
+      "isoCurrencyCode": "GBP"
+  },
+  "financialRequirementsCheck" : {
+    "met": true
+  }
+}
