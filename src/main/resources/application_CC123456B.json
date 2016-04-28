@@ -5,7 +5,7 @@
     "surname": "Taylor",
     "nino": "CC123456B"
   },
-  "applicationReceivedDate": "2015-01-09T12:31:28.884Z",
+  "applicationRaisedDate": "2015-01-09T12:31:28.884Z",
   "category": "A",
   "threshold": {
     "amount": 18600.00,
