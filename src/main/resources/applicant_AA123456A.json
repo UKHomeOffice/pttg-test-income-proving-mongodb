@@ -44,6 +44,9 @@
       "payDate" : "15/06/2014",
       "employer" : "Flying Pizza Ltd",
       "income" : "1600.00"
+    },
+    {
+      "payFreq": "w1"
     }
   ],
   "total" : "11000",
