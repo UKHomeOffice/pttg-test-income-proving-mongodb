@@ -1,0 +1,81 @@
+{
+  "applicant" : {
+    "forename" : "Raj",
+    "surname" : "Patel",
+    "nino" : "RP123456C"
+  },
+  "payFreq" : "W1",
+  "incomes" : [
+    {
+      "payDate" : "03/07/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "600"
+    },
+    {
+      "payDate" : "26/06/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "600"
+    },
+    {
+      "payDate" : "19/16/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "600"
+    },
+    {
+      "payDate" : "12/06/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "600"
+    },
+    {
+      "payDate" : "05/06/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "600"
+    },
+    {
+      "payDate" : "29/05/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "600"
+    },
+    {
+      "payDate" : "22/05/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "600"
+    },
+    {
+      "payDate" : "15/05/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "600"
+    },
+    {
+      "payDate" : "08/05/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "600"
+    },
+    {
+      "payDate" : "01/05/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "600"
+    },
+    {
+      "payDate" : "24/04/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "600"
+    },
+    {
+      "payDate" : "17/04/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "600"
+    }
+  ],
+  "total" : "11000",
+  "links" : [
+    {
+      "rel" : "self",
+      "href" : "http://localhost:4567/incomeproving/v1/applicants/AA123456A"
+    },
+    {
+      "rel" : "sponsors",
+      "href" : "http://localhost:4567/incomeproving/v1/applicants/AA123456A/sponsors"
+    }
+  ]
+}
