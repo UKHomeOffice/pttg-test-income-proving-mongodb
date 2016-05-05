@@ -1,8 +1,8 @@
 {
   "applicant" : {
-    "forename" : "Jonathan",
-    "surname" : "Odometey",
-    "nino" : "JO123456A"
+    "forename" : "Tony",
+    "surname" : "Singh",
+    "nino" : "TS123456A"
   },
   "payFreq": "M1",
   "incomes" : [
