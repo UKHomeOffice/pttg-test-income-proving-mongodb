@@ -1,0 +1,177 @@
+{
+  "applicant" : {
+    "forename" : "Jonathan",
+    "surname" : "Odometey",
+    "nino" : "JO123456A"
+  },
+  "payFreq": "M1",
+  "incomes" : [
+    {
+      "payDate" : "22/2/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "15/2/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "8/2/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "1/2/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "25/1/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "18/1/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "11/1/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "4/1/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "28/12/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "21/12/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "14/12/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "7/12/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "30/11/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "23/11/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "20/11/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "14/11/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "7/11/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "31/10/2015",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "24/10/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "17/10/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "10/10/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "3/10/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "26/9/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "19/9/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "12/9/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "5/9/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "30/8/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "23/8/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "16/8/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "9/8/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    },
+    {
+      "payDate" : "2/8/2014",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "466.01"
+    }
+
+  ],
+  "total" : "11000",
+  "links" : [
+    {
+      "rel" : "self",
+      "href" : "http://localhost:4567/incomeproving/v1/applicants/AA123456A"
+    },
+    {
+      "rel" : "sponsors",
+      "href" : "http://localhost:4567/incomeproving/v1/applicants/AA123456A/sponsors"
+    }
+  ]
+}
