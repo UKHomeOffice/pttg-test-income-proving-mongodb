@@ -4,9 +4,7 @@
     "surname" : "Lister",
     "nino" : "JL123456D"
   },
-
-    "payFreq" : "W1",
-
+  "payFreq" : "W1"
   "incomes" : [
     {
       "payDate" : "03/07/2015",
