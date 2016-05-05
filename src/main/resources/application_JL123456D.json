@@ -1,0 +1,17 @@
+{
+  "applicant": {
+    "title": "Mr",
+    "forename": "John",
+    "surname": "Lister",
+    "nino": "JL123456D"
+  },
+  "applicationRaisedDate": "2015-07-10T12:31:28.884Z",
+  "category": "A",
+  "threshold": {
+      "amount": 18600.00,
+      "isoCurrencyCode": "GBP"
+  },
+  "financialRequirementsCheck" : {
+    "met": true
+  }
+}
