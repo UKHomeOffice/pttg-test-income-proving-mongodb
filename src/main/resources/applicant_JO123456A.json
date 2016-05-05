@@ -4,6 +4,7 @@
     "surname" : "Odometey",
     "nino" : "JO123456A"
   },
+  "payFreq": "M1",
   "incomes" : [
     {
       "payDate" : "21/9/2015",
@@ -159,9 +160,6 @@
       "payDate" : "21/2/2015",
       "employer" : "Flying Pizza Ltd",
       "income" : "606.00"
-    },
-    {
-      "payFreq": "W1"
     }
 
   ],

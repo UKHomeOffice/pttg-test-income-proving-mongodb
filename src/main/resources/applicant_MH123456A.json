@@ -4,6 +4,7 @@
     "surname" : "Henry",
     "nino" : "MH123456A"
   },
+  "payFreq": "W1",
   "incomes" : [
     {
       "payDate" : "24/11/2015",
@@ -159,9 +160,6 @@
       "payDate" : "24/4/2015",
       "employer" : "Flying Pizza Ltd",
       "income" : "470.43"
-    },
-    {
-      "payFreq": "w1"
     }
 
   ],

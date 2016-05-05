@@ -4,6 +4,7 @@
     "surname" : "Yu",
     "nino" : "SY987654C"
   },
+  "payFreq": "M1",
   "incomes" : [
     {
       "payDate" : "03/08/2015",
@@ -29,9 +30,6 @@
       "payDate" : "03/04/2015",
       "employer" : "Flying Pizza Ltd",
       "income" : "2600.00"
-    },
-    {
-      "payFreq": "M1"
     }
 
   ],

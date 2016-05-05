@@ -4,6 +4,7 @@
     "surname" : "Dilshan",
     "nino" : "KS123456C"
   },
+  "payFreq": "M1",
   "incomes" : [
     {
       "payDate" : "03/01/2015",
@@ -44,9 +45,6 @@
       "payDate" : "28/06/2014",
       "employer" : "Flying Pizza Ltd",
       "income" : "0.00"
-    },
-    {
-      "payFreq": "M1"
     }
   ],
   "total" : "11000",

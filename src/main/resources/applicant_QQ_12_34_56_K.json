@@ -4,6 +4,7 @@
     "surname" : "Taylor",
     "nino" : "QQ123456K"
   },
+  "payFreq": "M1",
   "incomes" : [
     {
       "payDate" : "01/01/2015",
@@ -39,9 +40,6 @@
       "payDate" : "01/07/2014",
       "employer" : "Flying Pizza Ltd",
       "income" : "1400.00"
-    },
-    {
-      "payFreq": "M1"
     }
   ],
   "total" : "11000",

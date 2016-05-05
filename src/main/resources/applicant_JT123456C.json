@@ -4,6 +4,7 @@
     "surname" : "Toure",
     "nino" : "JT123456C"
   },
+  "payFreq": "W1",
   "incomes" : [
     {
       "payDate" : "10/12/2015",
@@ -159,11 +160,7 @@
       "payDate" : "13/5/2015",
       "employer" : "Flying Pizza Ltd",
       "income" : "606.00"
-    },
-    {
-      "payFreq": "w1"
     }
-
   ],
   "total" : "11000",
   "links" : [

@@ -4,6 +4,7 @@
     "surname" : "Woods",
     "nino" : "JL123456B"
   },
+  "payFreq": "M1",
   "incomes" : [
     {
       "payDate" : "15/01/2015",
@@ -39,9 +40,6 @@
       "payDate" : "15/07/2014",
       "employer" : "Flying Pizza Ltd",
       "income" : "£1000.00"
-    },
-    {
-      "payFreq": "M1"
     }
   ],
   "total" : "£11000",

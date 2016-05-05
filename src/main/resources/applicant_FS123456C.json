@@ -4,6 +4,7 @@
     "surname" : "Sanchez",
     "nino" : "FS123456C"
   },
+  "payFreq": "W1",
   "incomes" : [
     {
       "payDate" : "21/9/2015",
@@ -159,9 +160,6 @@
       "payDate" : "21/2/2015",
       "employer" : "Flying Pizza Ltd",
       "income" : "357.69"
-    },
-    {
-      "payFreq": "W1"
     }
 
   ],

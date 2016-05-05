@@ -4,6 +4,7 @@
     "surname" : "Vasquez",
     "nino" : "LV987654B"
   },
+  "payFreq": "M1",
   "incomes" : [
     {
       "payDate" : "22/07/2015",
@@ -159,9 +160,6 @@
       "payDate" : "24/12/2014",
       "employer" : "Flying Pizza Ltd",
       "income" : "615.38"
-    },
-    {
-      "payFreq": "w1"
     }
 
   ],

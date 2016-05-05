@@ -4,6 +4,7 @@
     "surname" : "Leblanc",
     "nino" : "FL123456B"
   },
+  "payFreq": "M1",
   "incomes" : [
     {
       "payDate" : "28/03/2015",
@@ -54,9 +55,6 @@
       "payDate" : "28/06/2014",
       "employer" : "Flying Pizza Ltd",
       "income" : "1250.00"
-    },
-    {
-      "payFreq": "M1"
     }
   ],
   "total" : "11000",
