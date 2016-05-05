@@ -4,7 +4,7 @@
     "surname" : "Vasquez",
     "nino" : "LV987654B"
   },
-  "payFreq": "M1",
+  "payFreq": "W1",
   "incomes" : [
     {
       "payDate" : "22/07/2015",
