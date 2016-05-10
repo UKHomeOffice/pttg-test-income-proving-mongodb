@@ -1,5 +1,5 @@
 {
-  "applicant" : {
+  "individual" : {
     "forename" : "Kumar Sangakkara",
     "surname" : "Dilshan",
     "nino" : "KS123456C"
@@ -45,17 +45,6 @@
       "payDate" : "28/06/2014",
       "employer" : "Flying Pizza Ltd",
       "income" : "0.00"
-    }
-  ],
-  "total" : "11000",
-  "links" : [
-    {
-      "rel" : "self",
-      "href" : "http://localhost:4567/incomeproving/v1/applicants/AA123456A"
-    },
-    {
-      "rel" : "sponsors",
-      "href" : "http://localhost:4567/incomeproving/v1/applicants/AA123456A/sponsors"
     }
   ]
 }

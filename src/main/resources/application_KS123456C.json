@@ -1,17 +1,8 @@
 {
-  "applicant": {
+  "individual": {
     "title": "Mr",
     "forename": "Kumar Sangakkara",
     "surname": "Dilshan",
     "nino": "KS123456C"
-  },
-  "applicationRaisedDate": "2015-07-03T12:31:28.884Z",
-  "category": "B",
-  "threshold": {
-    "amount": 17600.00,
-    "isoCurrencyCode": "GBP"
-  },
-  "financialRequirementsCheck": {
-    "met": false
   }
 }

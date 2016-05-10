@@ -1,5 +1,5 @@
 {
-  "applicant" : {
+  "individual" : {
     "forename" : "Raj",
     "surname" : "Patel",
     "nino" : "RP123456C"
@@ -65,17 +65,6 @@
       "payDate" : "17/04/2015",
       "employer" : "Flying Pizza Ltd",
       "income" : "600"
-    }
-  ],
-  "total" : "11000",
-  "links" : [
-    {
-      "rel" : "self",
-      "href" : "http://localhost:4567/incomeproving/v1/applicants/AA123456A"
-    },
-    {
-      "rel" : "sponsors",
-      "href" : "http://localhost:4567/incomeproving/v1/applicants/AA123456A/sponsors"
     }
   ]
 }

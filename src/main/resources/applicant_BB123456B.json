@@ -1,5 +1,5 @@
 {
-  "applicant" : {
+  "individual" : {
     "forename" : "Jon",
     "surname" : "Taylor",
     "nino" : "BB123456B"
@@ -42,16 +42,5 @@
       "income" : "2240.00"
     }
 
-  ],
-  "total" : "15680",
-  "links" : [
-    {
-      "rel" : "self",
-      "href" : "http://localhost:4567/incomeproving/v1/applicants/AA123456A"
-    },
-    {
-      "rel" : "sponsors",
-      "href" : "http://localhost:4567/incomeproving/v1/applicants/AA123456A/sponsors"
-    }
   ]
 }

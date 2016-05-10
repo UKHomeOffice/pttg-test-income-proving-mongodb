@@ -1,5 +1,5 @@
 {
-  "applicant" : {
+  "individual" : {
     "forename" : "Gary",
     "surname" : "Goldstein",
     "nino" : "GG987654A"
@@ -105,17 +105,6 @@
       "payDate" : "23/04/2015",
       "employer" : "Flying Pizza Ltd",
       "income" : "516.67"
-    }
-  ],
-  "total" : "11000",
-  "links" : [
-    {
-      "rel" : "self",
-      "href" : "http://localhost:4567/incomeproving/v1/applicants/AA123456A"
-    },
-    {
-      "rel" : "sponsors",
-      "href" : "http://localhost:4567/incomeproving/v1/applicants/AA123456A/sponsors"
     }
   ]
 }

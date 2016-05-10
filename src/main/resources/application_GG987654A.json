@@ -1,17 +1,8 @@
 {
-  "applicant": {
+  "individual": {
     "title": "Mr",
     "forename": "Gary",
     "surname": "Goldstein",
     "nino": "GG987654A"
-  },
-  "applicationRaisedDate": "2015-09-03T12:31:28.884Z",
-  "category": "A",
-  "threshold": {
-      "amount": 18600.00,
-      "isoCurrencyCode": "GBP"
-  },
-  "financialRequirementsCheck" : {
-    "met": true
   }
 }

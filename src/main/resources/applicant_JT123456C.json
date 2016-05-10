@@ -1,5 +1,5 @@
 {
-  "applicant" : {
+  "individual" : {
     "forename" : "Jennifer",
     "surname" : "Toure",
     "nino" : "JT123456C"
@@ -160,17 +160,6 @@
       "payDate" : "13/5/2015",
       "employer" : "Flying Pizza Ltd",
       "income" : "606.00"
-    }
-  ],
-  "total" : "11000",
-  "links" : [
-    {
-      "rel" : "self",
-      "href" : "http://localhost:4567/incomeproving/v1/applicants/AA123456A"
-    },
-    {
-      "rel" : "sponsors",
-      "href" : "http://localhost:4567/incomeproving/v1/applicants/AA123456A/sponsors"
     }
   ]
 }

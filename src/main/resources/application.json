@@ -1,17 +1,8 @@
 {
-  "applicant": {
+  "individual": {
     "title": "Mr",
     "forename": "Brian",
     "surname": "Snail",
     "nino": "BB654321B"
-  },
-  "applicationReceivedDate": "2015-01-15T17:31:28.884Z",
-  "category": "A",
-  "threshold": {
-    "amount": 18600.00,
-    "isoCurrencyCode": "GBP"
-  },
-  "financialRequirementsCheck": {
-    "met": false
   }
 }

@@ -1,17 +1,8 @@
 {
-  "applicant": {
+  "individual": {
     "title": "Ms",
     "forename": "Molly",
     "surname": "Henry",
     "nino": "MH123456A"
-  },
-  "applicationRaisedDate": "2015-11-29T12:31:28.884Z",
-  "category": "A",
-  "threshold": {
-      "amount": 18600.00,
-      "isoCurrencyCode": "GBP"
-  },
-  "financialRequirementsCheck" : {
-    "met": true
   }
 }
