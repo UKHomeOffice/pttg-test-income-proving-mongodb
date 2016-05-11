@@ -1,5 +1,5 @@
 {
-  "applicant" : {
+  "individual" : {
     "forename" : "Harry",
     "surname" : "Callahan",
     "nino" : "QQ123456A"
@@ -40,11 +40,11 @@
   "links" : [
     {
       "rel" : "self",
-      "href" : "http://localhost:4567/incomeproving/v1/applicants/QQ123456A"
+      "href" : "http://localhost:4567/incomeproving/v1/individual/QQ123456A"
     },
     {
       "rel" : "sponsors",
-      "href" : "http://localhost:4567/incomeproving/v1/applicants/QQ123456A/sponsors"
+      "href" : "http://localhost:4567/incomeproving/v1/individual/QQ123456A/sponsors"
     }
   ]
 }
