@@ -66,15 +66,5 @@
       "income" : "£2500.00"
     }
   ],
-  "total" : "£19994.00",
-  "links" : [
-    {
-      "rel" : "self",
-      "href" : "http://localhost:4567/incomeproving/individual/QQ765432A"
-    },
-    {
-      "rel" : "sponsors",
-      "href" : "http://localhost:4567/incomeproving/individual/QQ765432A/sponsors"
-    }
-  ]
+  "total" : "£19994.00"
 }

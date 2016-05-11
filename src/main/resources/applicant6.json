@@ -4,15 +4,5 @@
     "surname" : "Callahan",
     "nino" : "QQ769875A"
   },
-  "incomes" : null,
-  "links" : [
-    {
-      "rel" : "self",
-      "href" : "http://localhost:4567/incomeproving/individual/QQ769875A"
-    },
-    {
-      "rel" : "sponsors",
-      "href" : "http://localhost:4567/incomeproving/individual/QQ769875A/sponsors"
-    }
-  ]
+  "incomes" : null
 }

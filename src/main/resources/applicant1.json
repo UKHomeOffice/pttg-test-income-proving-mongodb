@@ -36,15 +36,5 @@
       "income" : "£1666.11"
     }
   ],
-  "total" : "£9996.66",
-  "links" : [
-    {
-      "rel" : "self",
-      "href" : "http://localhost:4567/incomeproving/v1/individual/QQ123456A"
-    },
-    {
-      "rel" : "sponsors",
-      "href" : "http://localhost:4567/incomeproving/v1/individual/QQ123456A/sponsors"
-    }
-  ]
+  "total" : "£9996.66"
 }
