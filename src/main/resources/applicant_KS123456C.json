@@ -20,31 +20,7 @@
       "payDate" : "03/05/2015",
       "employer" : "Flying Pizza Ltd",
       "income" : "1600.00"
-    },
-    {
-      "payDate" : "03/04/2015",
-      "employer" : "Flying Pizza Ltd",
-      "income" : "16000.00"
-    },
-    {
-      "payDate" : "03/03/2015",
-      "employer" : "",
-      "income" : "0.00"
-    },
-    {
-      "payDate" : "03/02/2015",
-      "employer" : "",
-      "income" : "0.00"
-    },
-    {
-      "payDate" : "03/01/2015",
-      "employer" : "",
-      "income" : "0.00"
-    },
-    {
-      "payDate" : "03/12/2014",
-      "employer" : "",
-      "income" : "0.00"
     }
+
   ]
 }
