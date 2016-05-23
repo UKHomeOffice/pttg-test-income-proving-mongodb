@@ -24,6 +24,16 @@
       "payDate" : "2015-06-20",
       "employer" : "Pizza Hut LTD",
       "income" : "1666.00"
+    },
+    {
+      "payDate" : "2015-07-20",
+      "employer" : "Pizza Hut LTD",
+      "income" : "1666.00"
+    },
+    {
+      "payDate" : "2015-08-20",
+      "employer" : "Pizza Hut LTD",
+      "income" : "1666.00"
     }
   ]
 }
