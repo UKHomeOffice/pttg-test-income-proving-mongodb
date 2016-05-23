@@ -7,42 +7,42 @@
   "payFreq": "M1",
   "incomes" : [
     {
-      "payDate" : "15/01/2015",
+      "payDate" : "2015-01-15",
       "employer" : "Flying Pizza Ltd",
       "income" : "4600.00"
     },
     {
-      "payDate" : "17/12/2014",
+      "payDate" : "2014-12-17",
       "employer" : "Flying Pizza Ltd",
       "income" : "4168.00"
     },
     {
-      "payDate" : "15/11/2014",
+      "payDate" : "2014-11-15",
       "employer" : "Flying Pizza Ltd",
       "income" : "4200.00"
     },
     {
-      "payDate" : "15/10/2014",
+      "payDate" : "2014-10-15",
       "employer" : "Flying Pizza Ltd",
       "income" : "4166.68"
     },
     {
-      "payDate" : "15/09/2014",
+      "payDate" : "2014-09-15",
       "employer" : "Flying Pizza Ltd",
       "income" : "4190.00"
     },
     {
-      "payDate" : "15/08/2014",
+      "payDate" : "2014-08-15",
       "employer" : "Flying Pizza Ltd",
       "income" : "4300.00"
     },
     {
-      "payDate" : "15/07/2014",
+      "payDate" : "2014-07-15",
       "employer" : "Flying Pizza Ltd",
       "income" : "4200.00"
     },
     {
-      "payDate" : "15/06/2014",
+      "payDate" : "2014-06-15",
       "employer" : "Flying Pizza Ltd",
       "income" : "4200.00"
     }
