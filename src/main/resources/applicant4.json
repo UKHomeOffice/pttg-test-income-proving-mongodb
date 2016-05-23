@@ -6,25 +6,24 @@
   },
   "incomes" : [
     {
-      "payDate" : "04/01/2015",
+      "payDate" : "2015-01-04",
       "employer" : "Flying Pizza Ltd",
-      "income" : "£1666.00"
+      "income" : "1666.00"
     },
     {
-      "payDate" : "04/02/2015",
+      "payDate" : "2015-02-04",
       "employer" : "Flying Pizza Ltd",
-      "income" : "£1666.00"
+      "income" : "1666.00"
     },
     {
-      "payDate" : "20/05/2015",
+      "payDate" : "2015-05-20",
       "employer" : "Pizza Hut LTD",
-      "income" : "£2500.00"
+      "income" : "2500.00"
     },
     {
-      "payDate" : "20/06/2015",
+      "payDate" : "2015-06-20",
       "employer" : "Pizza Hut LTD",
-      "income" : "£1666.00"
+      "income" : "1666.00"
     }
-  ],
-  "total" : "£7498.00"
+  ]
 }

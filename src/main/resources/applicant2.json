@@ -6,65 +6,69 @@
   },
   "incomes" : [
     {
-      "payDate" : "01/01/2015",
+      "payDate" : "2015-01-11",
       "employer" : "Sheffield Spice",
-      "income" : "£1000.00"
+      "income" : "1000.00"
     },
     {
-      "payDate" : "01/02/2015",
+      "payDate" : "2015-02-11",
       "employer" : "Sheffield Spice",
-      "income" : "£1000.00"
+      "income" : "1000.00"
     },
     {
-      "payDate" : "01/03/2015",
+      "payDate" : "2015-03-11",
       "employer" : "Sheffield Spice",
-      "income" : "£1000.00"
+      "income" : "1000.00"
     },
     {
-      "payDate" : "01/04/2015",
+      "payDate" : "2015-04-11",
       "employer" : "Sheffield Spice",
-      "income" : "£3000.00"
+      "income" : "3000.00"
     },
     {
-      "payDate" : "01/05/2015",
+      "payDate" : "2015-05-11",
       "employer" : "Sheffield Spice",
-      "income" : "£1000.00"
+      "income" : "1000.00"
     },
     {
-      "payDate" : "01/06/2015",
+      "payDate" : "2015-06-11",
       "employer" : "Sheffield Spice",
-      "income" : "£1000.00"
+      "income" : "1000.00"
     },
     {
-      "payDate" : "01/07/2015",
+      "payDate" : "2015-07-13",
       "employer" : "Sheffield Spice",
-      "income" : "£2500.00"
+      "income" : "2500.00"
     },
     {
-      "payDate" : "01/08/2015",
+      "payDate" : "2015-08-11",
       "employer" : "Sheffield Spice",
-      "income" : "£1000.00"
+      "income" : "1000.00"
     },
     {
-      "payDate" : "01/09/2015",
+      "payDate" : "2015-09-11",
       "employer" : "Flying Pizza Ltd",
-      "income" : "£1666.00"
+      "income" : "1666.00"
     },
     {
-      "payDate" : "01/10/2015",
+      "payDate" : "2015-10-13",
       "employer" : "Flying Pizza Ltd",
-      "income" : "£1666.00"
+      "income" : "1666.00"
     },
     {
-      "payDate" : "01/11/2015",
+      "payDate" : "2015-11-11",
       "employer" : "Flying Pizza Ltd",
-      "income" : "£1666.00"
+      "income" : "1666.00"
     },
     {
-      "payDate" : "01/12/2015",
+      "payDate" : "2015-12-11",
       "employer" : "Flying Pizza Ltd",
-      "income" : "£1666.00"
+      "income" : "1666.00"
+    },
+    {
+      "payDate" : "2016-01-11",
+      "employer" : "Flying Pizza Ltd",
+      "income" : "1666.00"
     }
-  ],
-  "total" : "£18164.00"
+  ]
 }
