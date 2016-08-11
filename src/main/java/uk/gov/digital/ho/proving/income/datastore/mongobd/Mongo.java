@@ -17,8 +17,8 @@ public class Mongo {
     public static void main(String args[]) throws IOException {
         ResourcePatternResolver patternResolver = new PathMatchingResourcePatternResolver();
 
-        MongoCollection<Document> applicants = new MongoClient("pttg-test-mongodb").getDatabase("test").getCollection("applicants");
-        //MongoCollection<Document> applicants = new MongoClient("localhost", 8888).getDatabase("test").getCollection("applicants");
+        //MongoCollection<Document> applicants = new MongoClient("pttg-test-mongodb").getDatabase("test").getCollection("applicants");
+        MongoCollection<Document> applicants = new MongoClient().getDatabase("test").getCollection("applicants");
         applicants.drop();
 
         Resource[] mappingLocations = patternResolver.getResources("classpath*:applicant*.json");
