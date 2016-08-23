@@ -14,8 +14,10 @@ import java.util.stream.IntStream;
 
 public class Mongo {
 
-    private static String MONGO_HOST_ENV_NAME = "MONGO_HOST";
-    private static String MONGO_PORT_ENV_NAME = "MONGO_PORT";
+    private static String MONGO_HOST_ENV_NAME = "MONGODB_HOST";
+    private static String MONGO_PORT_ENV_NAME = "MONGODB_PORT";
+
+    private static String MONGO_HOST_DEFAULT = "127.0.0.1";
 
     public static void main(String args[]) throws IOException {
         ResourcePatternResolver patternResolver = new PathMatchingResourcePatternResolver();
@@ -63,9 +65,12 @@ public class Mongo {
         System.out.println("Applicants collection now contains: " + applications.count());
     }
 
-    /*quick hack to allow overriding by environment variables*/
+    /*quick hack to allow overriding by environment variables
+    * port will be ignore if host not specified */
     private static MongoClient getMongoClient() {
-        final String host = System.getenv(MONGO_HOST_ENV_NAME);
+        final String envValue = System.getenv(MONGO_HOST_ENV_NAME);
+        final String host = (envValue != null && !envValue.isEmpty()) ? envValue : MONGO_HOST_DEFAULT;
+
         final String port = System.getenv(MONGO_PORT_ENV_NAME);
         boolean useHost = (host != null && !host.isEmpty());
         boolean usePort = (port != null && !port.isEmpty());
