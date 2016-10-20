@@ -11,13 +11,21 @@ import org.springframework.core.io.support.ResourcePatternResolver;
 import java.io.IOException;
 import java.util.stream.IntStream;
 
-
 public class Mongo {
 
     private static String MONGO_HOST_ENV_NAME = "MONGODB_HOST";
     private static String MONGO_PORT_ENV_NAME = "MONGODB_PORT";
 
     private static String MONGO_HOST_DEFAULT = "127.0.0.1";
+
+    /*
+     * Settings for pt-i-test environment:
+     *  - Use the mongodb ELB host
+     *  - Use the HTTPS port to get through the firewall
+     *
+     * MONGODB_HOST=pt-i-test-internalelb-mongodb.dsp.notprod.homeoffice.gov.uk
+     * MONGODB_PORT=443
+     */
 
     public static void main(String args[]) throws IOException {
         ResourcePatternResolver patternResolver = new PathMatchingResourcePatternResolver();
