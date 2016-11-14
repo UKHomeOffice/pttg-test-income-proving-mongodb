@@ -19,19 +19,21 @@ public class Mongo {
     private static String MONGO_HOST_DEFAULT = "127.0.0.1";
 
     /*
-     * Settings for pt-i-test environment:
-     *  - Use the mongodb ELB host
-     *  - Use the HTTPS port to get through the firewall
+     * How to run against DSP environment:
+     *  eg for test environment
      *
-     * MONGODB_HOST=pt-i-test-internalelb-mongodb.dsp.notprod.homeoffice.gov.uk
-     * MONGODB_PORT=443
+     * Connect to VPN
+     * kubectl get pods --namespace=pt-i-test
+     * copy the mongodb pod name
+     * kubectl port-forward <pod-name> 27017:27017 --namespace=pt-i-test
+     * stop your local mongodb with sudo service stop mongodb
+     * run this app
      */
 
     public static void main(String args[]) throws IOException {
         ResourcePatternResolver patternResolver = new PathMatchingResourcePatternResolver();
 
         MongoCollection<Document> applicants = getMongoClient().getDatabase("test").getCollection("applicants");
-        //MongoCollection<Document> applicants = new MongoClient("localhost", 8888).getDatabase("test").getCollection("applicants");
         applicants.drop();
 
         Resource[] mappingLocations = patternResolver.getResources("classpath*:applicant*.json");
@@ -52,7 +54,6 @@ public class Mongo {
         System.out.println("Applicants collection now contains: " + applicants.count());
 
         MongoCollection<Document> applications = getMongoClient().getDatabase("test").getCollection("applications");
-        //MongoCollection<Document> applications = new MongoClient("localhost", 8888).getDatabase("test").getCollection("applications");
         applications.drop();
 
         mappingLocations = patternResolver.getResources("classpath*:application*.json");
@@ -70,7 +71,7 @@ public class Mongo {
             applications.insertOne(Document.parse(document));
         }
 
-        System.out.println("Applicants collection now contains: " + applications.count());
+        System.out.println("Applications collection now contains: " + applications.count());
     }
 
     /*quick hack to allow overriding by environment variables
@@ -82,6 +83,7 @@ public class Mongo {
         final String port = System.getenv(MONGO_PORT_ENV_NAME);
         boolean useHost = (host != null && !host.isEmpty());
         boolean usePort = (port != null && !port.isEmpty());
+
         MongoClient client = null;
         if (useHost) {
             if (usePort) {
@@ -92,6 +94,7 @@ public class Mongo {
         } else {
             client = new MongoClient();
         }
+
         System.out.println("MongoClient invoked using host[" + host + "] and port [" + port + "]");
         return client;
     }
