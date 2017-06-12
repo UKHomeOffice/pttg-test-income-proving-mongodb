@@ -2,7 +2,8 @@
   "individual" : {
     "forename" : "Mark",
     "surname" : "Jones",
-    "nino" : "AA123456A"
+    "nino" : "AA123456A",
+    "dob" : "1976-07-07"
   },
   "payFreq": "M1",
   "incomes" : [

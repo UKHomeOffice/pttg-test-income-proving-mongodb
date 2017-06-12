@@ -1,8 +1,9 @@
 {
   "individual" : {
-    "forename" : "Kumar Sangakkara",
-    "surname" : "Dilshan",
-    "nino" : "KS123456C"
+    "forename" : "Kumar",
+    "surname" : "Sangakkara",
+    "nino" : "KS123456C",
+    "dob" : "1978-01-01"
   },
   "payFreq": "M1",
   "incomes" : [

@@ -2,7 +2,8 @@
   "individual" : {
     "forename" : "Jill",
     "surname" : "Lewondoski",
-    "nino" : "JL123456A"
+    "nino" : "JL123456A",
+    "dob" : "1980-08-08"
   },
   "payFreq": "M1",
   "incomes" : [
